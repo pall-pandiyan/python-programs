@@ -1,6 +1,6 @@
 arr = list(map(int,input().strip().split()))
 n = len(arr)
-d = int(input())
+d = int(input().strip())
 
 def swap(Arr,fi,si,d):
     for i in range(d):
