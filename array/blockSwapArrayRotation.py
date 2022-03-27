@@ -1,6 +1,10 @@
-arr = list(map(int,input().strip().split()))
+# this program uses list to store a single dimention integers as array
+# and receive a displacement value
+# the array will be rotated to the left by given displacement
+
+arr = list(map(int,input("Enter space seperated single dimention arry: ").strip().split()))
 n = len(arr)
-d = int(input().strip())
+d = int(input("Enter displacement: ").strip())
 
 def swap(Arr,fi,si,d):
     for i in range(d):
@@ -29,3 +33,9 @@ if __name__ == '__main__':
     print (leftRotate(arr,d,n))
     X = [1,2,3,4,5,6,7]
     print (leftRotate(X,d=2,n=len(X)))
+
+# the output will be...
+# Enter space seperated single dimention arry: 1 2 3 4 5 6 7 8 9 10
+# Enter displacement: 3
+# [4, 5, 6, 7, 8, 9, 10, 1, 2, 3]
+# [3, 4, 5, 6, 7, 1, 2]
