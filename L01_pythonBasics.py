@@ -16,8 +16,6 @@ comments """
 
 
 # in python we dont need to specify the datatype of the variale, python will assume the type dynamically. we can  variable name, "=" and ofcourse the value to be assigned.
-name = "Rahoul"
-age = 20
 
 # variabel naming rules:
 # variable name should only contain alphabet, number and underscore ("_")
@@ -27,7 +25,13 @@ age = 20
 # string data should enclosed with either sigle or double quote (' ' or " ")
 marks = 83.7
 greetings = 'hello everyone!'
-imaginery = 5j
+imaginery = 5+0j
+
+# we can get the value from user using "input()", we can insert a string as query inside the brackets.
+# "strip()" function to strip off left and right excess spaces.
+# the user input usually of type string, so "int()" function is to convert it to integer.
+name = input("Enter your name:").strip()
+age = int(input("Enter your age:").strip())
 
 # we can assign multiple variables with multiple values in single line using comma (,)
 no1, no2, no3 = 1, 2, 3
@@ -62,12 +66,16 @@ del no1, no2, no3, no4, no5, no6
 
 """
 the output will be...
-Age: 20
+
+Enter your name:Rock
+Enter your age:28
+Age: 28
 Marks: 83.7
-hello everyone! I am Rahoul
-Imaginery number: 5j
+hello everyone! I am Rock
+Imaginery number: (5+0j)
 Type of name <class 'str'>
 Type of age <class 'int'>
 Type of marks <class 'float'>
 Type of imaginery <class 'complex'>
+
 """
