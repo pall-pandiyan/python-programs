@@ -20,10 +20,12 @@ if ('coderdb',) in mycursor:
 else:
     mycursor.execute("CREATE DATABASE coderdb")
     mycursor.execute("CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))")
-
+    
     mydb.commit()
 
+
 """
+
 mycursor.execute("ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY")
 mycursor.execute("SHOW TABLES")
 
@@ -61,4 +63,5 @@ print(mycursor.fetchall())
 #[print(x) for x in mycursor.fetchall()]
 #for x in mycursor.fetchall():
 #    print (x)
+
 """
