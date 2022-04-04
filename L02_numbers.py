@@ -64,6 +64,7 @@ Operator 	Name 	Description
 
 '''
 the output will be...
+
 x+y = 15
 x-y = -5
 x*y = 50
@@ -71,4 +72,5 @@ x/y = 0.5
 x//y = 0
 int of 3.14 is: 3
 float of 54 is: 54.0
+
 '''
