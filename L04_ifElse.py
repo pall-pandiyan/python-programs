@@ -62,5 +62,4 @@ Typical if else statement:
 Entry granted!
 one line if else statement:
 Entry granted!
-
 """
