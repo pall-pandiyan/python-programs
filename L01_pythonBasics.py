@@ -25,7 +25,7 @@ comments """
 # string data should enclosed with either sigle or double quote (' ' or " ")
 marks = 83.7
 greetings = 'hello everyone!'
-imaginery = 5+0j
+complexNo = 5+0j
 
 # we can get the value from user using "input()", we can insert a string as query inside the brackets.
 # "strip()" function to strip off left and right excess spaces.
@@ -48,16 +48,16 @@ no4 = no5 = no6 = 10
 print("Age:",age)   # Age: 20
 print("Marks",marks,sep=": ")    # Marks:83.7
 print(greetings,"I am",name)
-print("Imaginery number:",imaginery)
+print("complex number:",complexNo)
 
 # to figure out the type of a variable we can use type() function
 print("Type of name",type(name))
 print("Type of age",type(age))
 print("Type of marks",type(marks))
-print("Type of imaginery",type(imaginery))
+print("Type of complexNo",type(complexNo))
 
 # to completely detete a variable we can use a "del" keyword
-del name, age, marks, greetings, imaginery
+del name, age, marks, greetings, complexNo
 del no1, no2, no3, no4, no5, no6
 
 # we can't refer the variable anymore
@@ -67,15 +67,15 @@ del no1, no2, no3, no4, no5, no6
 """
 the output will be...
 
-Enter your name:Rock
-Enter your age:28
-Age: 28
+Enter your name:Rajesh
+Enter your age:24
+Age: 24
 Marks: 83.7
-hello everyone! I am Rock
-Imaginery number: (5+0j)
+hello everyone! I am Rajesh
+complex number: (5+0j)
 Type of name <class 'str'>
 Type of age <class 'int'>
 Type of marks <class 'float'>
-Type of imaginery <class 'complex'>
+Type of complexNo <class 'complex'>
 
 """

@@ -1,6 +1,8 @@
 # if statement is used to control the execution flow of the program
 
 age = int(input("Enter your age: ").strip())
+
+print("Typical if else statement:")
 if age<18:
     print("Entry denied!")
 else:
@@ -9,6 +11,11 @@ else:
 # in this segment we get the input from user, strip off its excess spaces, convert in into integer and store it into variable named "age"
 # the "if" keyword checks a condition (if age is less than 18, but not 18), if it is true it will follow this flow.
 # if the condition is not true, the else segment will executed.
+
+# we can do the same thing in one line using one line if else statement
+print("one line if else statement:")
+print("Entry denied!") if age > 18 else print("Entry granted!")
+
 
 '''
 Comparison operators are used to compare two values:
@@ -46,3 +53,14 @@ Operator 	Description 	Example
     in  	Returns True if a sequence with the specified value is present in the object 	x in y 	
     not in 	Returns True if a sequence with the specified value is not present in the object 	x not in y 	
 '''
+
+"""
+the output will be...
+
+Enter your age: 18
+Typical if else statement:
+Entry granted!
+one line if else statement:
+Entry granted!
+
+"""
