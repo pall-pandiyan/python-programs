@@ -72,5 +72,4 @@ x/y = 0.5
 x//y = 0
 int of 3.14 is: 3
 float of 54 is: 54.0
-
 '''
