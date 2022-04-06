@@ -79,8 +79,4 @@ Lambda function: 15
 Lambda with 2 args: 50
 The doubler: 22
 The tripler: 33
-
-
-
-
 '''
