@@ -94,6 +94,7 @@ index()	    Searches the tuple for a specified value and returns the position of
 
 '''
 the output of this program will be...
+
 aTuple is: ('apple', 'orange', 'grape')
 The length of aTuple is: 3
 The count of apple is: 1
