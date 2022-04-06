@@ -222,5 +222,4 @@ Deleting the last element:
 ['oranges', 'Cherry', 'blueberry', 'berry', 'banana']
 Cleared:
 []
-
 '''
