@@ -12,3 +12,11 @@ print("zip of aTuple and bTuple is:", end=" ")
 for x in zip(aTuple, bTuple):
     print(x, end=" ")
 print()
+
+"""
+the outpul will be...
+
+aTuple is: (1, 2, 3, 4, 5, 6)
+bTuple is: (8, 6, 5, 4, 2)
+zip of aTuple and bTuple is: (1, 8) (2, 6) (3, 5) (4, 4) (5, 2)
+"""
