@@ -4,8 +4,7 @@ def fibonacci(n, lst=list()):
 
     if len(lst) == 0:
         lst = list('0'*(n+1))
-        lst[0] = 0
-        lst[1] = 1
+        lst[0:2] = [0,1]
 
     if (lst[n] == '0'):
         lst[n] = fibonacci(n-1, lst) + fibonacci(n-2, lst)
