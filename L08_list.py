@@ -3,44 +3,44 @@
 
 # list is defined using square brackets "[]"
 aList = ["apple", "Orange", "banana", "Cherry"]
-print(aList)
+print(" ".join(aList))
 
 # we can access the length of the list using len() function
-print("Length of this list is",len(aList))
+print("Length of this list is", len(aList))
 
 # we can use count() function to count a specified element of a list
-print("Counting rhe apples: ",aList.count("apple"))
+print("Counting rhe apples: ", aList.count("apple"))
 
 # we can use index() function to access the first index of a specified value
 print("First index of apple is:", aList.index("apple"))
 
 # we can use type() to view type of the variable (it will show its class)
-print("Type of the list",type(aList))
+print("Type of the list", type(aList))
 
 # using for loop to print items
 print("Print using for loop:")
 for item in aList:
-    print(item,end=" ")
+    print(item, end=" ")
 print()
 
 # using index to print items
 print("Print list using index:")
 for i in range(len(aList)):
-    print(aList[i],end=" ")
+    print(aList[i], end=" ")
 print()
 
 # using negative values as index
 print("using negative values as index:")
-for i in range(1,len(aList)+1):
-    print(aList[-i],end=" ")
+for i in range(1, len(aList)+1):
+    print(aList[-i], end=" ")
 print()
 
 # using while loop to access the list
 print("using while loop:")
-i= 0
-while (i<len(aList)):
+i = 0
+while (i < len(aList)):
     print(aList[i], end=" ")
-    i+=1
+    i += 1
 print()
 
 # using list comprehension
@@ -54,7 +54,7 @@ print("overwrite values:")
 print(aList)
 
 # insert() function allows us to insert a new element into the list with specified index
-aList.insert(2,"berry")
+aList.insert(2, "berry")
 print("using insert() function:")
 print(aList)
 
@@ -94,7 +94,7 @@ print()
 # There are ways to make a copy, one way is to use the built-in List method copy().
 bList = aList.copy()
 
-#Another way to make a copy is to use the built-in method list().
+# Another way to make a copy is to use the built-in method list().
 cList = list(aList)
 
 # using remove() function we can a remove specified value
@@ -165,7 +165,7 @@ sort()	    Sorts the list
 '''
 the output of this program will be..
 
-['apple', 'Orange', 'banana', 'Cherry']
+apple Orange banana Cherry
 Length of this list is 4
 Counting rhe apples:  1
 First index of apple is: 0
